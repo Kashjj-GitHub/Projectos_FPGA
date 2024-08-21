@@ -1,0 +1,84 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Wed Aug 21 00:40:52 2024
+# Process ID: 31428
+# Current directory: C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent26080 C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.xpr
+# Log file: C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/vivado.log
+# Journal file: C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4\vivado.jou
+# Running On        :KASHJJ-PC
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :12th Gen Intel(R) Core(TM) i5-12600K
+# CPU Frequency     :3686 MHz
+# CPU Physical cores:10
+# CPU Logical cores :16
+# Host memory       :16980 MB
+# Swap memory       :8521 MB
+# Total Virtual     :25501 MB
+# Available Virtual :9722 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.xpr}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/kevin/OneDrive/Documents/digilent-xdc-master/digilent-xdc-master/Basys-3-Master.xdc] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 C:/Users/kevin/OneDrive/Documents/digilent-xdc-master/digilent-xdc-master/Basys-3-Master.xdc
+add_files -fileset constrs_1 -norecurse {{C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/Basys-3-Master.xdc}}
+file mkdir C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sim_1/new
+file mkdir C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sim_1/new
+file mkdir C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sim_1/new
+file mkdir C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sim_1/new
+file mkdir C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sim_1/new
+file mkdir {C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sim_1/new}
+close [ open {C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sim_1/new/TestBench.v} w ]
+add_files -fileset sim_1 {{C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sim_1/new/TestBench.v}}
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source top_tb.tcl
+add_bp {C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sim_1/new/TestBench.v} 126
+remove_bps -file {C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sim_1/new/TestBench.v} -line 126
+add_bp {C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sim_1/new/TestBench.v} 126
+remove_bps -file {C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sim_1/new/TestBench.v} -line 126
+add_bp {C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sim_1/new/TestBench.v} 126
+remove_bps -file {C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sim_1/new/TestBench.v} -line 126
+close_sim
+launch_simulation
+source top_tb.tcl
+close_sim
+launch_simulation
+source top_tb.tcl
+set_property simulator_language Verilog [current_project]
+set_property STEPS.WRITE_BITSTREAM.ARGS.BIN_FILE true [get_runs impl_1]
+run all
+close_sim
+launch_simulation
+source top_tb.tcl
+run 10 s
+close_sim
+launch_simulation
+source top_tb.tcl
+run 3 s
+run 3 s
+close_sim
+launch_simulation
+source top_tb.tcl
+close_sim
+launch_simulation
+source top_tb.tcl
+run 3 s
+close_sim
+launch_simulation
+source top_tb.tcl
+run 3 s
+run 3 s
+close_sim
+launch_simulation
+source top_tb.tcl
+run 3 s
+close_sim

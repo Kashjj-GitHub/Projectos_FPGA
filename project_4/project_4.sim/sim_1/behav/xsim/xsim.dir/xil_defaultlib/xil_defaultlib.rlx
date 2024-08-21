@@ -1,0 +1,8 @@
+0.7
+2020.2
+May 22 2024
+19:03:11
+C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
+C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sim_1/new/TestBench.v,1724229754,verilog,,,,top_tb,,,,,,,,
+C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sources_1/new/Clock_Divider.v,1724222685,verilog,,C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sources_1/new/top.v,,clock_divider,,,,,,,,
+C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sources_1/new/top.v,1724232925,verilog,,C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sim_1/new/TestBench.v,,top,,,,,,,,

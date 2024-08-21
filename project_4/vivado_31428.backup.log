@@ -1,0 +1,832 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Wed Aug 21 00:40:52 2024
+# Process ID: 31428
+# Current directory: C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent26080 C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.xpr
+# Log file: C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/vivado.log
+# Journal file: C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4\vivado.jou
+# Running On        :KASHJJ-PC
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :22631
+# Processor Detail  :12th Gen Intel(R) Core(TM) i5-12600K
+# CPU Frequency     :3686 MHz
+# CPU Physical cores:10
+# CPU Logical cores :16
+# Host memory       :16980 MB
+# Swap memory       :8521 MB
+# Total Virtual     :25501 MB
+# Available Virtual :9722 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.xpr}
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'C:/Users/laboratorio/Downloads/Projectos_FPGA-main/Projectos_FPGA-main/project_4' since last save.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.gen/sources_1'.
+WARNING: [filemgmt 56-3] IPUserFilesDir: Could not find the directory 'C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.ip_user_files'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/kevin/OneDrive/Documents/digilent-xdc-master/digilent-xdc-master/Basys-3-Master.xdc', nor could it be found using path 'C:/Users/laboratorio/Downloads/digilent-xdc-master/digilent-xdc-master/Basys-3-Master.xdc'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'G:/Vivado/Vivado/2024.1/data/ip'.
+open_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1649.262 ; gain = 395.516
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/kevin/OneDrive/Documents/digilent-xdc-master/digilent-xdc-master/Basys-3-Master.xdc] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 C:/Users/kevin/OneDrive/Documents/digilent-xdc-master/digilent-xdc-master/Basys-3-Master.xdc
+add_files -fileset constrs_1 -norecurse {{C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/Basys-3-Master.xdc}}
+file mkdir C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sim_1/new
+file mkdir C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sim_1/new
+file mkdir C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sim_1/new
+file mkdir C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sim_1/new
+file mkdir C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+file mkdir C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sim_1/new
+file mkdir {C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sim_1/new}
+close [ open {C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sim_1/new/TestBench.v} w ]
+add_files -fileset sim_1 {{C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sim_1/new/TestBench.v}}
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+update_compile_order -fileset sim_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sim_1\new\TestBench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sim_1\new\TestBench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sim_1\new\TestBench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sim_1\new\TestBench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sim_1\new\TestBench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sim_1\new\TestBench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sim_1\new\TestBench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sim_1\new\TestBench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sim_1\new\TestBench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sim_1\new\TestBench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sim_1\new\TestBench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sim_1\new\TestBench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sim_1\new\TestBench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sim_1\new\TestBench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sim_1\new\TestBench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sim_1\new\TestBench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sim_1\new\TestBench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sim_1\new\TestBench.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sim_1\new\TestBench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+update_compile_order -fileset sim_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sim_1\new\TestBench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sim_1\new\TestBench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'G:/Vivado/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sources_1/new/Clock_Divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clock_divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sim_1/new/TestBench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_tb
+INFO: [VRFC 10-311] analyzing module top_tb
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'top_tb' [C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sim_1/new/TestBench.v:72]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: G:/Vivado/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clock_divider
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.top_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_tb_behav -key {Behavioral:sim_1:Functional:top_tb} -tclbatch {top_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1731.496 ; gain = 24.082
+add_bp {C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sim_1/new/TestBench.v} 126
+remove_bps -file {C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sim_1/new/TestBench.v} -line 126
+add_bp {C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sim_1/new/TestBench.v} 126
+remove_bps -file {C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sim_1/new/TestBench.v} -line 126
+add_bp {C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sim_1/new/TestBench.v} 126
+remove_bps -file {C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sim_1/new/TestBench.v} -line 126
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'G:/Vivado/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: G:/Vivado/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_tb_behav -key {Behavioral:sim_1:Functional:top_tb} -tclbatch {top_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sim_1\new\TestBench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+INFO: [Simtcl 6-16] Simulation closed
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sim_1\new\TestBench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'G:/Vivado/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sources_1/new/Clock_Divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clock_divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sim_1/new/TestBench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_tb
+INFO: [VRFC 10-311] analyzing module top_tb
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'top_tb' [C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sim_1/new/TestBench.v:72]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: G:/Vivado/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clock_divider
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.top_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_tb_behav -key {Behavioral:sim_1:Functional:top_tb} -tclbatch {top_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+set_property simulator_language Verilog [current_project]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sim_1\new\TestBench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sim_1\new\TestBench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sim_1\new\TestBench.v:]
+set_property STEPS.WRITE_BITSTREAM.ARGS.BIN_FILE true [get_runs impl_1]
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at G:/Vivado/Vivado/2024.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+run all
+run: Time (s): cpu = 00:03:31 ; elapsed = 00:19:55 . Memory (MB): peak = 1849.398 ; gain = 55.223
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sim_1\new\TestBench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sim_1\new\TestBench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 16944 KB (Peak: 16944 KB), Simulation CPU Usage: 59249 ms
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'G:/Vivado/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sources_1/new/Clock_Divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clock_divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sim_1/new/TestBench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_tb
+INFO: [VRFC 10-311] analyzing module top_tb
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'top_tb' [C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sim_1/new/TestBench.v:72]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: G:/Vivado/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clock_divider
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.top_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_tb_behav -key {Behavioral:sim_1:Functional:top_tb} -tclbatch {top_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+run 10 s
+run: Time (s): cpu = 00:07:43 ; elapsed = 00:49:52 . Memory (MB): peak = 1858.352 ; gain = 0.000
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sim_1\new\TestBench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sim_1\new\TestBench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sim_1\new\TestBench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sim_1\new\TestBench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sim_1\new\TestBench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sim_1\new\TestBench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 16968 KB (Peak: 16968 KB), Simulation CPU Usage: 52640 ms
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'G:/Vivado/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sources_1/new/Clock_Divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clock_divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sim_1/new/TestBench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: G:/Vivado/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clock_divider
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.top_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_tb_behav -key {Behavioral:sim_1:Functional:top_tb} -tclbatch {top_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1877.504 ; gain = 0.000
+run 3 s
+run: Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 1877.504 ; gain = 0.000
+run 3 s
+$stop called at time : 2120 ms : File "C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sim_1/new/TestBench.v" Line 50
+run: Time (s): cpu = 00:01:45 ; elapsed = 00:11:59 . Memory (MB): peak = 1905.484 ; gain = 27.980
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sim_1\new\TestBench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sim_1\new\TestBench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sim_1\new\TestBench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+close_sim
+ERROR: [Common 17-180] Spawn failed: No error
+INFO: xsimkernel Simulation Memory Usage: 16980 KB (Peak: 16980 KB), Simulation CPU Usage: 12468 ms
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sim_1\new\TestBench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+INFO: [Simtcl 6-16] Simulation closed
+ERROR: [Common 17-39] 'close_sim' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'G:/Vivado/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sources_1/new/Clock_Divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clock_divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sim_1/new/TestBench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: G:/Vivado/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clock_divider
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.top_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_tb_behav -key {Behavioral:sim_1:Functional:top_tb} -tclbatch {top_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1925.707 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'G:/Vivado/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sources_1/new/Clock_Divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clock_divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sim_1/new/TestBench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_tb
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: G:/Vivado/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clock_divider
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.top_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_tb_behav -key {Behavioral:sim_1:Functional:top_tb} -tclbatch {top_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+run 3 s
+$stop called at time : 2120 ms : File "C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sim_1/new/TestBench.v" Line 50
+run: Time (s): cpu = 00:01:12 ; elapsed = 00:07:54 . Memory (MB): peak = 1925.707 ; gain = 0.000
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sim_1\new\TestBench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\top.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sim_1\new\TestBench.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:\Users\kevin\OneDrive\Documents\GitHub\Projectos FPGA\project_4\project_4.srcs\sources_1\new\Clock_Divider.v:]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'G:/Vivado/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sources_1/new/Clock_Divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clock_divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sim_1/new/TestBench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_tb
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: G:/Vivado/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.clock_divider
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.top_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_tb_behav -key {Behavioral:sim_1:Functional:top_tb} -tclbatch {top_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+run 3 s
+$stop called at time : 2120 ms : File "C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.srcs/sim_1/new/TestBench.v" Line 50
+run: Time (s): cpu = 00:02:23 ; elapsed = 00:03:32 . Memory (MB): peak = 1925.707 ; gain = 0.000
+run 3 s
+run: Time (s): cpu = 00:00:15 ; elapsed = 00:00:27 . Memory (MB): peak = 1925.707 ; gain = 0.000
+close_sim
+INFO: xsimkernel Simulation Memory Usage: 16932 KB (Peak: 16932 KB), Simulation CPU Usage: 17859 ms
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'top_tb'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'G:/Vivado/Vivado/2024.1/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_tb_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: G:/Vivado/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_tb_behav -key {Behavioral:sim_1:Functional:top_tb} -tclbatch {top_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source top_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+run 3 s
+run: Time (s): cpu = 00:02:59 ; elapsed = 00:04:27 . Memory (MB): peak = 1952.098 ; gain = 25.738
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Aug 21 04:26:29 2024...

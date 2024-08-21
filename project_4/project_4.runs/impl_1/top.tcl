@@ -1,5 +1,5 @@
 namespace eval ::optrace {
-  variable script "C:/Users/laboratorio/Downloads/Projectos_FPGA-main/Projectos_FPGA-main/project_4/project_4.runs/impl_1/top.tcl"
+  variable script "C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.runs/impl_1/top.tcl"
   variable category "vivado_impl"
 }
 
@@ -104,8 +104,8 @@ start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
-  set_param chipscope.maxJobs 3
-  set_param runs.launchOptions { -jobs 6  }
+  set_param chipscope.maxJobs 4
+  set_param runs.launchOptions { -jobs 8  }
 OPTRACE "create in-memory project" START { }
   create_project -in_memory -part xc7a35tcpg236-1
   set_property board_part digilentinc.com:basys3:part0:1.2 [current_project]
@@ -113,15 +113,15 @@ OPTRACE "create in-memory project" START { }
   set_param project.singleFileAddWarning.threshold 0
 OPTRACE "create in-memory project" END { }
 OPTRACE "set parameters" START { }
-  set_property webtalk.parent_dir C:/Users/laboratorio/Downloads/Projectos_FPGA-main/Projectos_FPGA-main/project_4/project_4.cache/wt [current_project]
-  set_property parent.project_path C:/Users/laboratorio/Downloads/Projectos_FPGA-main/Projectos_FPGA-main/project_4/project_4.xpr [current_project]
-  set_property ip_output_repo C:/Users/laboratorio/Downloads/Projectos_FPGA-main/Projectos_FPGA-main/project_4/project_4.cache/ip [current_project]
+  set_property webtalk.parent_dir {C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.cache/wt} [current_project]
+  set_property parent.project_path {C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.xpr} [current_project]
+  set_property ip_output_repo {{C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.cache/ip}} [current_project]
   set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "set parameters" END { }
 OPTRACE "add files" START { }
-  add_files -quiet C:/Users/laboratorio/Downloads/Projectos_FPGA-main/Projectos_FPGA-main/project_4/project_4.runs/synth_1/top.dcp
+  add_files -quiet {{C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/project_4/project_4.runs/synth_1/top.dcp}}
 OPTRACE "read constraints: implementation" START { }
-  read_xdc C:/Users/laboratorio/Downloads/digilent-xdc-master/digilent-xdc-master/Basys-3-Master.xdc
+  read_xdc {{C:/Users/kevin/OneDrive/Documents/GitHub/Projectos FPGA/Basys-3-Master.xdc}}
 OPTRACE "read constraints: implementation" END { }
 OPTRACE "read constraints: implementation_pre" START { }
 OPTRACE "read constraints: implementation_pre" END { }
