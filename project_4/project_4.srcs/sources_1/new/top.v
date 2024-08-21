@@ -2,11 +2,16 @@
 
 
 module top(
-input wire ButtonLeft,
-input wire ButtonRight,
+input wire clk,
+input wire [1:0] buttons, 
 output reg [15:0] Leds 
 
     );
+    
+clock_divider wrapper (
+.clk(clk),
+.divided_clk(led)
+); 
     
 reg [3:0] Position_Value = 0;    
     
