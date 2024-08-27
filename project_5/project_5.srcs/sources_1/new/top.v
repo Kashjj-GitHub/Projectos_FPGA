@@ -3,7 +3,7 @@
 
 module top(
 input wire clk,
-input wire [1:0] buttons, // 01 = Left, 10 = Right. 00/11 = do nothing
+input [1:0] buttons, // 01 = Left, 10 = Right. 00/11 = do nothing
 output reg [15:0] Leds = 16'b0000000000000000
 
     );
@@ -17,7 +17,7 @@ clock_divider wrapper (
 
 
     
-reg [3:0] Position_Value = 0;    
+reg Position_Value = 0;    
 
 always @(posedge clk_10Hz) begin
     if (buttons == 2'b01 && Position_Value > 0) begin
