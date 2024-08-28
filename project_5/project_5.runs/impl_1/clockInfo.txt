@@ -1,7 +1,7 @@
 -------------------------------------
 | Tool Version : Vivado v.2024.1
-| Date         : Mon Aug 26 20:45:28 2024
-| Host         : KASHJJ-PC
+| Date         : Tue Aug 27 20:30:28 2024
+| Host         : ULAT-LB-D302-02
 | Design       : design_1
 | Device       : xc7a35t-cpg236-1--
 -------------------------------------
